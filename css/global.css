@@ -211,7 +211,7 @@ main.page-enter {
 .btn--primary:hover {
   background: var(--accent-light);
   transform: translateY(-2px);
-  box-shadow: 0 12px 32px rgba(255, 107, 43, 0.35);
+  box-shadow: 0 12px 32px rgba(62, 59, 153, 0.4);
 }
 
 .btn--ghost {

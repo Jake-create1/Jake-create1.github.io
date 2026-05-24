@@ -38,7 +38,7 @@
   aspect-ratio: 3 / 4;
   border-radius: var(--radius-xl);
   background:
-    radial-gradient(ellipse at 50% 20%, rgba(255, 107, 43, 0.25) 0%, transparent 55%),
+    radial-gradient(ellipse at 50% 20%, rgba(62, 59, 153, 0.3) 0%, transparent 55%),
     linear-gradient(160deg, #1E1E2E 0%, #141414 100%);
   border: 1px solid var(--border);
   position: relative;
