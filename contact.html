@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Jake, Design Manager</title>
+  <meta name="description" content="Get in touch with Jake — open to senior IC, management, and director-level design roles. Email, LinkedIn, or a quick form.">
+
+  <meta property="og:title" content="Contact — Jake, Design Manager">
+  <meta property="og:description" content="Open to new opportunities. Let's talk.">
+  <meta property="og:image" content="/assets/og/contact.png">
+  <meta property="og:type" content="website">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="/assets/og/contact.png">
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>J</text></svg>">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+
+  <div class="cursor" aria-hidden="true">
+    <div class="cursor__dot"></div>
+    <div class="cursor__ring"></div>
+  </div>
+
+  <div class="page-overlay" aria-hidden="true"></div>
+
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav__inner container">
+      <a href="index.html" class="nav__logo">Jake<span class="accent">.</span></a>
+      <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav__links" role="list">
+        <li><a href="index.html" class="nav__link">Home</a></li>
+        <li><a href="projects.html" class="nav__link">Work</a></li>
+        <li><a href="about.html" class="nav__link">About</a></li>
+        <li><a href="contact.html" class="nav__link nav__link--cta" aria-current="page">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main id="main">
+
+    <!-- ── Contact Hero ───────────────────────────── -->
+    <section class="contact-hero container reveal">
+      <p class="section-label">Say hello</p>
+      <h1 class="contact-hero__title">
+        Let's work<br>together<span class="accent">.</span>
+      </h1>
+      <p class="contact-hero__sub">
+        Open to senior IC, management, and director-level design roles. Hiring managers and recruiters welcome — I respond fast.
+      </p>
+      <span class="contact-hero__availability">Available for new opportunities</span>
+    </section>
+
+    <!-- ── Contact Grid ───────────────────────────── -->
+    <div class="container contact-grid">
+
+      <div class="contact-card contact-card--email reveal">
+        <div>
+          <p class="contact-card__label">Email</p>
+          <a href="mailto:hello@jake.design" class="contact-card__email">
+            hello@jake.design
+          </a>
+        </div>
+        <a href="mailto:hello@jake.design" class="btn btn--primary magnetic" style="flex-shrink:0;">
+          Send an email →
+        </a>
+      </div>
+
+      <div class="contact-card reveal">
+        <p class="contact-card__label">LinkedIn</p>
+        <h2 class="contact-card__title">Jake</h2>
+        <p class="contact-card__detail">
+          Connect, message, or just snoop around. LinkedIn is the best place to see my full career history and recommendations.
+        </p>
+        <a href="https://linkedin.com/in/jake" class="contact-card__link magnetic" target="_blank" rel="noopener noreferrer">
+          View profile ↗
+        </a>
+      </div>
+
+      <div class="contact-card reveal">
+        <p class="contact-card__label">Location</p>
+        <h2 class="contact-card__title">San Francisco, CA</h2>
+        <p class="contact-card__detail">
+          Open to remote, hybrid, or in-person. Based in SF but built careers on both coasts and remotely.
+        </p>
+        <p class="contact-card__detail" style="margin-top: var(--space-3);">
+          Timezone: PT (UTC−8/−7)
+        </p>
+      </div>
+
+    </div>
+
+    <!-- ── Contact Form ───────────────────────────── -->
+    <section class="contact-form-section container reveal">
+      <h2>Or send a note directly<span class="accent">.</span></h2>
+      <form class="form" name="contact" method="POST" action="#" data-netlify="true" novalidate>
+        <div class="form__row">
+          <div class="form__field">
+            <label class="form__label" for="name">Name</label>
+            <input class="form__input" type="text" id="name" name="name" placeholder="Your name" required autocomplete="name">
+          </div>
+          <div class="form__field">
+            <label class="form__label" for="email">Email</label>
+            <input class="form__input" type="email" id="email" name="email" placeholder="you@company.com" required autocomplete="email">
+          </div>
+        </div>
+        <div class="form__field">
+          <label class="form__label" for="subject">Subject</label>
+          <input class="form__input" type="text" id="subject" name="subject" placeholder="Role at Company / Collaboration / etc.">
+        </div>
+        <div class="form__field">
+          <label class="form__label" for="message">Message</label>
+          <textarea class="form__textarea" id="message" name="message" placeholder="Tell me about the role, team, or what you have in mind." required></textarea>
+        </div>
+        <button type="submit" class="btn btn--primary form__submit magnetic">Send message →</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__copy">© 2024 Jake. Made with taste.</p>
+      <div class="footer__links">
+        <a href="https://linkedin.com/in/jake" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="mailto:hello@jake.design">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/cursor.js" defer></script>
+  <script src="js/transitions.js" defer></script>
+  <script src="js/reveal.js" defer></script>
+  <script src="js/magnetic.js" defer></script>
+  <script src="js/easter-egg.js" defer></script>
+  <script src="js/nav.js" defer></script>
+
+</body>
+</html>

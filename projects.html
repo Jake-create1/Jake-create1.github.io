@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Work — Jake, Design Manager</title>
+  <meta name="description" content="Product design work by Jake — fintech, SaaS, enterprise, and design systems. Outcomes and impact, no fluff.">
+
+  <meta property="og:title" content="Work — Jake, Design Manager">
+  <meta property="og:description" content="Product design work — fintech, SaaS, enterprise, design systems.">
+  <meta property="og:image" content="/assets/og/projects.png">
+  <meta property="og:type" content="website">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="/assets/og/projects.png">
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>J</text></svg>">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/projects.css">
+</head>
+<body>
+
+  <div class="cursor" aria-hidden="true">
+    <div class="cursor__dot"></div>
+    <div class="cursor__ring"></div>
+  </div>
+
+  <div class="page-overlay" aria-hidden="true"></div>
+
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav__inner container">
+      <a href="index.html" class="nav__logo">Jake<span class="accent">.</span></a>
+      <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav__links" role="list">
+        <li><a href="index.html" class="nav__link">Home</a></li>
+        <li><a href="projects.html" class="nav__link" aria-current="page">Work</a></li>
+        <li><a href="about.html" class="nav__link">About</a></li>
+        <li><a href="contact.html" class="nav__link nav__link--cta">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main id="main">
+
+    <!-- ── Page Header ───────────────────────────── -->
+    <header class="page-header container reveal">
+      <p class="page-header__eyebrow">Selected Work</p>
+      <h1 class="page-header__title">10 years. Lots of shipped<span class="accent">.</span></h1>
+      <p class="page-header__sub">Outcomes and impact only — no lengthy case study reads. Filter by type or industry below.</p>
+    </header>
+
+    <!-- ── Filter Bar ────────────────────────────── -->
+    <div class="container">
+      <div class="filter-bar reveal" role="group" aria-label="Filter projects">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="ic">IC Work</button>
+        <button class="filter-btn" data-filter="management">Management</button>
+        <button class="filter-btn" data-filter="fintech">Fintech</button>
+        <button class="filter-btn" data-filter="saas">SaaS</button>
+        <button class="filter-btn" data-filter="enterprise">Enterprise</button>
+        <button class="filter-btn" data-filter="design-system">Design Systems</button>
+        <button class="filter-btn" data-filter="mobile">Mobile</button>
+      </div>
+    </div>
+
+    <!-- ── Projects Grid ─────────────────────────── -->
+    <section class="projects-full section container">
+      <div class="projects-grid" id="projects-grid">
+
+        <!-- ╔══════════════════════════════════════════════════════════╗
+             ║  PROJECT CARD TEMPLATE — copy this block for each project ║
+             ║                                                          ║
+             ║  data-role:     ic | management                         ║
+             ║  data-industry: fintech | saas | enterprise | health    ║
+             ║  data-type:     mobile | dashboard | design-system | etc║
+             ║                                                          ║
+             ║  Apply as many data attributes as relevant.             ║
+             ╚══════════════════════════════════════════════════════════╝ -->
+
+        <article class="project-card reveal tilt-card" data-delay="0"
+                 data-role="ic" data-industry="fintech" data-type="mobile">
+          <a href="#" class="project-card__link" aria-label="View Onboarding Redesign project">
+            <div class="project-card__visual"
+                 style="--grad: linear-gradient(135deg, #1a0a3c 0%, #4a1a6e 50%, #7b3a9b 100%)">
+              <div class="project-card__visual-inner"></div>
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__tags">
+                <span class="tag">Fintech</span>
+                <span class="tag">Mobile</span>
+                <span class="tag">IC</span>
+              </div>
+              <h3 class="project-card__title">Onboarding Redesign</h3>
+              <p class="project-card__desc">Reduced activation friction for 2M+ users in a regulated financial product. Redesigned the full onboarding flow from 7 steps to 3 without losing compliance requirements.</p>
+              <div class="project-card__metrics">
+                <span class="metric">+34% activation</span>
+                <span class="metric">7 → 3 steps</span>
+                <span class="metric">2M users</span>
+              </div>
+              <div class="project-card__footer">
+                <span class="project-card__role">Lead Designer</span>
+                <span class="project-card__year">2023–2024</span>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <article class="project-card reveal tilt-card" data-delay="50"
+                 data-role="ic" data-industry="saas" data-type="design-system">
+          <a href="#" class="project-card__link" aria-label="View Design System project">
+            <div class="project-card__visual"
+                 style="--grad: linear-gradient(135deg, #0a2a1a 0%, #0d5c36 50%, #1a8c55 100%)">
+              <div class="project-card__visual-inner"></div>
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__tags">
+                <span class="tag">B2B SaaS</span>
+                <span class="tag">Design Systems</span>
+                <span class="tag">IC</span>
+              </div>
+              <h3 class="project-card__title">Design System at Scale</h3>
+              <p class="project-card__desc">Built a cross-platform design system from scratch, adopted across 12 product teams in 18 months. 400+ components, full token architecture, and contribution model.</p>
+              <div class="project-card__metrics">
+                <span class="metric">400+ components</span>
+                <span class="metric">12 teams</span>
+                <span class="metric">−60% design debt</span>
+              </div>
+              <div class="project-card__footer">
+                <span class="project-card__role">Design Systems Lead</span>
+                <span class="project-card__year">2022–2023</span>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <article class="project-card reveal tilt-card" data-delay="100"
+                 data-role="ic" data-industry="enterprise" data-type="dashboard">
+          <a href="#" class="project-card__link" aria-label="View Analytics Dashboard project">
+            <div class="project-card__visual"
+                 style="--grad: linear-gradient(135deg, #0a1a2a 0%, #0d3d5c 50%, #1a6080 100%)">
+              <div class="project-card__visual-inner"></div>
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__tags">
+                <span class="tag">Enterprise</span>
+                <span class="tag">Dashboard</span>
+                <span class="tag">IC</span>
+              </div>
+              <h3 class="project-card__title">Analytics Dashboard</h3>
+              <p class="project-card__desc">Rethought data density and hierarchy for power users managing complex multi-tenant workflows. Went deep on information architecture before a single pixel was designed.</p>
+              <div class="project-card__metrics">
+                <span class="metric">−40% support tickets</span>
+                <span class="metric">92 NPS</span>
+                <span class="metric">30% faster tasks</span>
+              </div>
+              <div class="project-card__footer">
+                <span class="project-card__role">Lead Designer</span>
+                <span class="project-card__year">2023</span>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <article class="project-card reveal tilt-card" data-delay="150"
+                 data-role="ic" data-industry="health" data-type="mobile">
+          <a href="#" class="project-card__link" aria-label="View HealthTech App project">
+            <div class="project-card__visual"
+                 style="--grad: linear-gradient(135deg, #1a0a12 0%, #5c0d2e 50%, #8c2058 100%)">
+              <div class="project-card__visual-inner"></div>
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__tags">
+                <span class="tag">HealthTech</span>
+                <span class="tag">Mobile</span>
+                <span class="tag">IC</span>
+              </div>
+              <h3 class="project-card__title">Patient Mobile App</h3>
+              <p class="project-card__desc">0→1 consumer health app for appointment booking, records, and messaging. Shipped to 2M users in 6 months; ranked 4.8★ on App Store.</p>
+              <div class="project-card__metrics">
+                <span class="metric">2M users</span>
+                <span class="metric">4.8★ App Store</span>
+                <span class="metric">0→1 in 6 months</span>
+              </div>
+              <div class="project-card__footer">
+                <span class="project-card__role">Senior Product Designer</span>
+                <span class="project-card__year">2021–2022</span>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <article class="project-card reveal tilt-card" data-delay="200"
+                 data-role="ic" data-industry="saas" data-type="mobile">
+          <a href="#" class="project-card__link" aria-label="View Brand and Marketing Site project">
+            <div class="project-card__visual"
+                 style="--grad: linear-gradient(135deg, #1a1200 0%, #5c4200 50%, #9c7200 100%)">
+              <div class="project-card__visual-inner"></div>
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__tags">
+                <span class="tag">Startup</span>
+                <span class="tag">Brand</span>
+                <span class="tag">IC</span>
+              </div>
+              <h3 class="project-card__title">Brand & Marketing Site</h3>
+              <p class="project-card__desc">End-to-end brand identity and marketing site for a Series A startup. From logo to launch in 6 weeks. Conversion-first design with a strong visual identity.</p>
+              <div class="project-card__metrics">
+                <span class="metric">0→1 brand</span>
+                <span class="metric">Launched in 6 weeks</span>
+                <span class="metric">+22% demo bookings</span>
+              </div>
+              <div class="project-card__footer">
+                <span class="project-card__role">Lead Designer</span>
+                <span class="project-card__year">2022</span>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <article class="project-card reveal tilt-card" data-delay="250"
+                 data-role="management" data-industry="saas" data-type="management">
+          <a href="#" class="project-card__link" aria-label="View Design Team Scaling project">
+            <div class="project-card__visual"
+                 style="--grad: linear-gradient(135deg, #0a0a1a 0%, #1a1a5c 50%, #2d2d8c 100%)">
+              <div class="project-card__visual-inner"></div>
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__tags">
+                <span class="tag">Management</span>
+                <span class="tag">Operations</span>
+              </div>
+              <h3 class="project-card__title">Scaling the Design Team</h3>
+              <p class="project-card__desc">Grew the design function from 3 to 11 designers in 18 months — hiring, structure, rituals, and career frameworks. Shipped a new design org model still in use today.</p>
+              <div class="project-card__metrics">
+                <span class="metric">3 → 11 designers</span>
+                <span class="metric">4 levels defined</span>
+                <span class="metric">0% voluntary attrition</span>
+              </div>
+              <div class="project-card__footer">
+                <span class="project-card__role">Design Manager</span>
+                <span class="project-card__year">2024</span>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <div class="no-results" id="no-results" role="status">
+          No projects match that filter yet — more coming soon.
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__copy">© 2024 Jake. Made with taste.</p>
+      <div class="footer__links">
+        <a href="https://linkedin.com/in/jake" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="mailto:hello@jake.design">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/cursor.js" defer></script>
+  <script src="js/transitions.js" defer></script>
+  <script src="js/reveal.js" defer></script>
+  <script src="js/tilt.js" defer></script>
+  <script src="js/magnetic.js" defer></script>
+  <script src="js/filter.js" defer></script>
+  <script src="js/easter-egg.js" defer></script>
+  <script src="js/nav.js" defer></script>
+
+</body>
+</html>

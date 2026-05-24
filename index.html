@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jake — Design Manager & Lead Product Designer</title>
+  <meta name="description" content="Portfolio of Jake, Lead Product Designer and Design Manager. Senior IC and management-level product design work that ships.">
+
+  <meta property="og:title" content="Jake — Design Manager & Lead Product Designer">
+  <meta property="og:description" content="Senior IC turned Design Manager. Product design that ships, sticks, and moves metrics.">
+  <meta property="og:image" content="/assets/og/home.png">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jake-create1.github.io">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Jake — Design Manager & Lead Product Designer">
+  <meta name="twitter:description" content="Senior IC turned Design Manager. Product design that ships.">
+  <meta name="twitter:image" content="/assets/og/home.png">
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>J</text></svg>">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+
+  <div class="cursor" aria-hidden="true">
+    <div class="cursor__dot"></div>
+    <div class="cursor__ring"></div>
+  </div>
+
+  <div class="page-overlay" aria-hidden="true"></div>
+
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav__inner container">
+      <a href="index.html" class="nav__logo">Jake<span class="accent">.</span></a>
+      <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav__links" role="list">
+        <li><a href="index.html" class="nav__link" aria-current="page">Home</a></li>
+        <li><a href="projects.html" class="nav__link">Work</a></li>
+        <li><a href="about.html" class="nav__link">About</a></li>
+        <li><a href="contact.html" class="nav__link nav__link--cta">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main id="main">
+
+    <!-- ── Hero ─────────────────────────────────── -->
+    <section class="hero">
+      <div class="container hero__container">
+        <div class="hero__content reveal">
+          <p class="hero__eyebrow">Lead Product Designer → Design Manager</p>
+          <h1 class="hero__headline">
+            Design that<br>
+            <em>moves</em> people<span class="accent">.</span>
+          </h1>
+          <p class="hero__subline">
+            Senior IC turned Design Manager. I build products that ship, stick, and move the metrics that matter — and teams that do it again.
+          </p>
+          <div class="hero__actions">
+            <a href="projects.html" class="btn btn--primary magnetic">See the work</a>
+            <a href="contact.html" class="btn btn--ghost magnetic">Let's talk</a>
+          </div>
+        </div>
+
+        <div class="hero__scene">
+          <div class="spline-wrapper"
+               data-src="https://my.spline.design/herosection-8wuNubHxhiix9W2lcV0AWKz6/"
+               role="img"
+               aria-label="3D animated design scene">
+            <div class="spline-fallback" aria-hidden="true"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__scroll-hint" aria-hidden="true">
+        <span>Scroll</span>
+        <div class="hero__scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ── Selected Projects ─────────────────────── -->
+    <section class="selected-projects section">
+      <div class="container">
+        <div class="section-header reveal">
+          <div>
+            <p class="section-label">Selected Work</p>
+            <h2 class="section-title">Projects that shipped<span class="accent">.</span></h2>
+          </div>
+          <a href="projects.html" class="btn btn--ghost magnetic">All projects →</a>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- ╔══════════════════════════════════════════════════════╗
+               ║  PROJECT CARD TEMPLATE                              ║
+               ║  Duplicate this block to add a project.            ║
+               ║  data-role / data-industry / data-type = filters.  ║
+               ╚══════════════════════════════════════════════════════╝ -->
+
+          <article class="project-card reveal tilt-card" data-delay="0"
+                   data-role="ic" data-industry="fintech" data-type="mobile">
+            <a href="projects.html" class="project-card__link">
+              <div class="project-card__visual"
+                   style="--grad: linear-gradient(135deg, #1a0a3c 0%, #4a1a6e 50%, #7b3a9b 100%)">
+                <div class="project-card__visual-inner"></div>
+              </div>
+              <div class="project-card__body">
+                <div class="project-card__tags">
+                  <span class="tag">Fintech</span>
+                  <span class="tag">Mobile</span>
+                </div>
+                <h3 class="project-card__title">Onboarding Redesign</h3>
+                <p class="project-card__desc">Reduced activation friction for 2M+ users in a regulated financial product.</p>
+                <div class="project-card__metrics">
+                  <span class="metric">+34% activation</span>
+                  <span class="metric">7 → 3 steps</span>
+                  <span class="metric">2M users</span>
+                </div>
+                <div class="project-card__footer">
+                  <span class="project-card__role">Lead Designer</span>
+                  <span class="project-card__year">2023–2024</span>
+                </div>
+              </div>
+            </a>
+          </article>
+
+          <article class="project-card reveal tilt-card" data-delay="100"
+                   data-role="ic" data-industry="saas" data-type="design-system">
+            <a href="projects.html" class="project-card__link">
+              <div class="project-card__visual"
+                   style="--grad: linear-gradient(135deg, #0a2a1a 0%, #0d5c36 50%, #1a8c55 100%)">
+                <div class="project-card__visual-inner"></div>
+              </div>
+              <div class="project-card__body">
+                <div class="project-card__tags">
+                  <span class="tag">B2B SaaS</span>
+                  <span class="tag">Design Systems</span>
+                </div>
+                <h3 class="project-card__title">Design System at Scale</h3>
+                <p class="project-card__desc">Built a cross-platform design system adopted across 12 product teams.</p>
+                <div class="project-card__metrics">
+                  <span class="metric">400+ components</span>
+                  <span class="metric">12 teams</span>
+                  <span class="metric">−60% debt</span>
+                </div>
+                <div class="project-card__footer">
+                  <span class="project-card__role">Design Systems Lead</span>
+                  <span class="project-card__year">2022–2023</span>
+                </div>
+              </div>
+            </a>
+          </article>
+
+          <article class="project-card reveal tilt-card" data-delay="200"
+                   data-role="ic" data-industry="enterprise" data-type="dashboard">
+            <a href="projects.html" class="project-card__link">
+              <div class="project-card__visual"
+                   style="--grad: linear-gradient(135deg, #0a1a2a 0%, #0d3d5c 50%, #1a6080 100%)">
+                <div class="project-card__visual-inner"></div>
+              </div>
+              <div class="project-card__body">
+                <div class="project-card__tags">
+                  <span class="tag">Enterprise</span>
+                  <span class="tag">Dashboard</span>
+                </div>
+                <h3 class="project-card__title">Analytics Dashboard</h3>
+                <p class="project-card__desc">Rethought data density and hierarchy for power users managing complex workflows.</p>
+                <div class="project-card__metrics">
+                  <span class="metric">−40% support tickets</span>
+                  <span class="metric">92 NPS</span>
+                  <span class="metric">30% faster</span>
+                </div>
+                <div class="project-card__footer">
+                  <span class="project-card__role">Lead Designer</span>
+                  <span class="project-card__year">2023</span>
+                </div>
+              </div>
+            </a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── About Teaser ───────────────────────────── -->
+    <section class="section" style="padding-block: 0; padding-bottom: clamp(5rem, 10vw, 9rem);">
+      <div class="about-teaser">
+        <div class="about-teaser__inner reveal">
+          <div class="about-teaser__content">
+            <p class="section-label">About</p>
+            <h2 class="about-teaser__title">10 years IC.<br>Now building teams<span class="accent">.</span></h2>
+            <p class="about-teaser__text">
+              I started as a solo designer at early-stage startups, became a staff-level IC at scale, and now I lead a design team. I care about craft, shipping, and the people doing the work.
+            </p>
+            <a href="about.html" class="btn btn--ghost magnetic">The full story →</a>
+          </div>
+          <div class="about-teaser__visual" aria-hidden="true">
+            <div class="about-teaser__photo-placeholder"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Contact CTA ────────────────────────────── -->
+    <section class="contact-cta section">
+      <div class="container">
+        <div class="reveal">
+          <p class="section-label">Open to opportunities</p>
+          <h2 class="contact-cta__title">Let's make something<br>great together<span class="accent">.</span></h2>
+          <div class="contact-cta__actions">
+            <a href="contact.html" class="btn btn--primary magnetic">Get in touch</a>
+            <a href="https://linkedin.com/in/jake" class="btn btn--ghost magnetic" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__copy">© 2024 Jake. Made with taste.</p>
+      <div class="footer__links">
+        <a href="https://linkedin.com/in/jake" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="mailto:hello@jake.design">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/cursor.js" defer></script>
+  <script src="js/transitions.js" defer></script>
+  <script src="js/reveal.js" defer></script>
+  <script src="js/tilt.js" defer></script>
+  <script src="js/magnetic.js" defer></script>
+  <script src="js/spline.js" defer></script>
+  <script src="js/easter-egg.js" defer></script>
+  <script src="js/nav.js" defer></script>
+
+</body>
+</html>
